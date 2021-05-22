@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Note',
+  title: "YumeMemooo's Note",
   tagline: 'Dinosaurs are cool',
   url: 'https://yumememooo.github.io',
   baseUrl: '/my-note/',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'my-note', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Yumememooo Note',
+      title: "YumeMemooo's Note",
       logo: {
         alt: 'My Note Logo',
         src: 'img/logo.svg',
@@ -25,8 +25,8 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/yumememooo/my-note',
-          label: 'GitHub',
+          href: 'https://yumememooo.github.io/',
+          label: '主網站 YumeMemooo',
           position: 'right',
         },
       ],

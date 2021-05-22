@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'my-note', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'yumememooo Note ',
+      title: 'Yumememooo Note',
       logo: {
         alt: 'My Note Logo',
         src: 'img/logo.svg',

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yumememooo.github.io/blog</id>
-    <title>My Note Blog</title>
+    <title>YumeMemooo's Note Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yumememooo.github.io/blog"/>
-    <subtitle>My Note Blog</subtitle>
+    <subtitle>YumeMemooo's Note Blog</subtitle>
     <icon>https://yumememooo.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

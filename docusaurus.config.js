@@ -1,19 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: 'My Note',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://yumememooo.github.io',
   baseUrl: '/my-note/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yumememooo', // Usually your GitHub org/user name.
+  projectName: 'my-note', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'yumememooo Note ',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'My Note Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -25,7 +25,7 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/yumememooo/my-note',
           label: 'GitHub',
           position: 'right',
         },
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/yumememooo',
             },
           ],
         },
@@ -77,6 +77,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -85,13 +86,15 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/yumememooo/my-note/edit/master/website/',
+          showLastUpdateTime: true,
+
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/yumememooo/my-note/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

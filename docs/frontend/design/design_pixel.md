@@ -16,5 +16,5 @@ FHD（Full High Definition）：為 1,920 行 × 1,080 列（大約 200 萬畫�
 
 
 ### 參考文章
-1.[畫素與解析度是什麼](https://www.stockfeel.com.tw/%E7%95%AB%E7%B4%A0%E8%88%87%E8%A7%A3%E6%9E%90%E5%BA%A6%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F/)
-2.[什麼是像素？解析度？一次搞懂，數位影像名詞剖析與簡介](https://www.wonder-product.com/pages/digital-image)
+1. [畫素與解析度是什麼](https://www.stockfeel.com.tw/%E7%95%AB%E7%B4%A0%E8%88%87%E8%A7%A3%E6%9E%90%E5%BA%A6%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F/)
+2. [什麼是像素？解析度？一次搞懂，數位影像名詞剖析與簡介](https://www.wonder-product.com/pages/digital-image)

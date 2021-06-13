@@ -1,1 +1,0 @@
-(self.webpackChunkmy_note=self.webpackChunkmy_note||[]).push([[731],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/my-note/blog/welcome"},{"title":"Hello","permalink":"/my-note/blog/hello-world"},{"title":"Hola","permalink":"/my-note/blog/hola"}]}')}}]);

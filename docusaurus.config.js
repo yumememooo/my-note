@@ -10,6 +10,16 @@ module.exports = {
   organizationName: 'yumememooo', // Usually your GitHub org/user name.
   projectName: 'my-note', // Usually your repo name.
   themeConfig: {
+
+    announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content:
+        '☞這裡是暫存的隨筆草稿區，另有建立整理後的文章可以進入☆主網站 <a target="_blank" rel="noopener noreferrer" href="https://yumememooo.github.io/"☆> yumememooo</a>☆',
+      backgroundColor: '#82e675', // Defaults to `#fff`.
+      textColor: '#050505', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
+
     navbar: {
       title: "YumeMemooo's Note",
       logo: {
@@ -21,14 +31,30 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'All Notes',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://yumememooo.github.io/',
-          label: '主網站 YumeMemooo',
+          href: 'https://github.com/yumememooo',
+          label: 'My Github',
           position: 'right',
         },
+        {
+          label: 'Community',
+          position: 'right',
+          items: [
+            {
+              label: 'About Me',
+              href: 'https://yumememooo.github.io/about/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/yumememooo',
+            },
+          ],
+        },
+
+
       ],
     },
     footer: {
@@ -74,7 +100,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} YumeMemooo, Inc. Built with Docusaurus.`,
     },
   },
 

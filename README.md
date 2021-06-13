@@ -41,3 +41,21 @@ npm start
 
 ### markdown前言
 [相關的markdown前言](https://docusaurus.io/zh-CN/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-frontmatter)
+```
+---
+id: doc-markdown
+title: Markdown 功能特性
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Markdown :)
+custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+description: 我没法解决问题时该怎么联系你
+keywords:
+  - 文档
+  - Docusaurus
+image: https://i.imgur.com/mErPwqL.png
+slug: /myDoc
+---
+我的 Markdown 文档内容
+
+```

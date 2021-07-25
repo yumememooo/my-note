@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yumememooo.github.io/blog</id>
     <title>YumeMemooo's Note Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2021-07-02T04:39:19.848Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yumememooo.github.io/blog"/>
     <subtitle>YumeMemooo's Note Blog</subtitle>
     <icon>https://yumememooo.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[[過來人心得]寫給資訊小白新人的須知]]></title>
+        <id>what</id>
+        <link href="https://yumememooo.github.io/my-note/blog/what"/>
+        <updated>2021-07-02T04:39:19.848Z</updated>
+        <summary type="html"><![CDATA[寫給資訊小白新人的一些話.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>

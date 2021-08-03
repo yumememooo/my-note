@@ -4,16 +4,9 @@
         <title>YumeMemooo's Note Blog</title>
         <link>https://yumememooo.github.io/blog</link>
         <description>YumeMemooo's Note Blog</description>
-        <lastBuildDate>Fri, 02 Jul 2021 04:39:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[[過來人心得]寫給資訊小白新人的須知]]></title>
-            <link>https://yumememooo.github.io/my-note/blog/what</link>
-            <guid>what</guid>
-            <pubDate>Fri, 02 Jul 2021 04:39:19 GMT</pubDate>
-            <description><![CDATA[寫給資訊小白新人的一些話.]]></description>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://yumememooo.github.io/my-note/blog/welcome</link>

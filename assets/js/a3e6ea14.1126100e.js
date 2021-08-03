@@ -1,1 +1,0 @@
-(self.webpackChunkmy_note=self.webpackChunkmy_note||[]).push([[3130],{4222:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/my-note/blog/tags","slug":"\u5b78\u7fd2","name":"\u5b78\u7fd2","count":1,"permalink":"/my-note/blog/tags/\u5b78\u7fd2"}')}}]);

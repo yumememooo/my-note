@@ -1,7 +1,8 @@
 ---
-title: "[go] struct"
-sidebar_position: 1
+title: "[go] struct & tag"
+
 ---
+
 
 ### A結構裡的資料要assign給B
 
@@ -44,3 +45,45 @@ https://stackoverflow.com/questions/37246473/copy-one-struct-to-another-where-st
 一般的轉型應用
 bar := Bar(foo)  轉型只能用在基礎類型全都一樣才可以(除了tag)
 
+### tag
+
+
+#### golang中json與struct中tag
+https://www.itread01.com/content/1544652920.html
+
+-：不要解析這個欄位
+
+https://stackoverflow.com/questions/10858787/what-are-the-uses-for-tags-in-go
+Usually a dash value ('-') for the "value" means to exclude the field 
+
+https://stackoverflow.com/questions/53144276/omit-multiple-fields-with-mgo
+
+This looks like a typo. To ignore a field, the tag value must be a `hyphen`, not an underscore.
+
+```
+Profit     float64    `json:"profit" bson:"-"`
+//這樣寫表示要秀出json 但是bson不要解析就不會存進mongo了
+
+```
+- 連字號 (-) Hyphen 
+- 連接號 (–) En Dash
+- 破折號 (—) Em Dash
+- 長度的不同，很多人搞混
+
+### 巢狀架構 inline
+
+巢狀架構 一個架構放入另一個架構
+如果存入到MONGO會多了一層架構，這時就要加入`bson:",inline"`避免
+
+type Cube struct {
+    Square `bson:",inline"`
+    Depth  int
+}
+
+https://stackoverflow.com/questions/20849591/storing-nested-structs-with-mgo
+
+
+
+### String Formatting
+
+[Go by Example: String Formatting](https://gobyexample.com/string-formatting)

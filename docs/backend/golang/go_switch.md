@@ -1,6 +1,6 @@
 ---
 title: "[go] switch"
-sidebar_position: 1
+
 ---
 
 ### go switch

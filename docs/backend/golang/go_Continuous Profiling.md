@@ -1,6 +1,6 @@
 ---
 title: "[go] Continuous Profiling"
-sidebar_position: 1
+
 ---
 
 ### go Continuous Profiling

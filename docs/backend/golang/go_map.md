@@ -1,5 +1,5 @@
 ---
-title: "GOLANG的MAP的併發問題"
+title: "[GO]MAP的併發問題"
 
 ---
 

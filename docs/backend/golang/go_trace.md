@@ -1,6 +1,6 @@
 ---
 title: "[go] trace"
-sidebar_position: 1
+
 ---
 
 ### go 優化工具
@@ -23,3 +23,6 @@ https://zhuanlan.zhihu.com/p/345413502
 Go: Trace 包探秘
 https://xie.infoq.cn/article/59670a5b5c9fc7ddc4c24f598
 查看方法
+
+https://zhuanlan.zhihu.com/p/345413502
+trace & GC問題

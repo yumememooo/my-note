@@ -87,3 +87,9 @@ https://stackoverflow.com/questions/20849591/storing-nested-structs-with-mgo
 ### String Formatting
 
 [Go by Example: String Formatting](https://gobyexample.com/string-formatting)
+
+
+### 空结构体
+- [go语言-空结构体/ chan struct{}](https://blog.csdn.net/inthat/article/details/106917358)
+	- 空结构体也不需要填充字节
+	- chan struct{}:通过消息来共享数据是golang的一种设计哲学，channel则是这种哲理的体现。stop 它是一个管道chan，内部的数据类型是struct{}。

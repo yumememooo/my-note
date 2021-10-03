@@ -1,6 +1,6 @@
 ---
-title: "[go] Gorountine"
-hide_title: true
+title: "[go] Gorountine 併發介紹"
+
 ---
 
 

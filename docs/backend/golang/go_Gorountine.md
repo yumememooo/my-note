@@ -4,6 +4,8 @@ title: "[go] Gorountine 併發介紹"
 ---
 
 
+---------------------------
+
 # Gorountine
 一種golang的協程？
 
@@ -368,3 +370,19 @@ https://medium.com/17media-tech/%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%80%91%E8
 ## others
 - [微薄搜索](https://s.weibo.com/weibo/%25E5%258D%2594%25E7%25A8%258B?topnav=1&wvr=6&b=1)
 
+
+
+
+======================
+
+
+## 高併發下的問題
+
+
+### 回收問題
+
+- morestack 與 goroutine pool
+https://www.readfog.com/a/1632193367810084864
+- goroutine栈的申请与释放
+https://blog.haohtml.com/archives/30403
+当一个g运行结束的时候，可能会释放stack（只是有可能），原因在於可能被復用?

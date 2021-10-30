@@ -1,5 +1,5 @@
 ---
-title: "[go] pprof"
+title: "[go] pprof 找出效能問題"
 
 ---
 
@@ -44,7 +44,7 @@ http://127.0.0.1:6060/debug/pprof/
 
 - [你不知道的 Go 之 pprof](https://segmentfault.com/a/1190000040152398)
     - CPU profiling/Memory profiling 代码编译自動寫入到某文件裡
-    - 如果线上遇到 CPU 或内存占用过高，该怎么办呢？总不能将上面的 Profile 代码编译到生产环境吧，这无疑会极大地影响性能。net/http/pprof提供了一个方法，不使用时不会造成任何影响，遇到问题时可以开启 profiling 帮助我们排查问题。我们只需要使用import这个包，然后在一个新的 goroutine 中调用http.ListenAndServe()在某个端口启动一个默认的 HTTP 服务器即可
+    - 如果线上遇到 CPU 或内存占用过高，该怎么办呢？总不能将上面的 Profile 代码编译到生产环境吧，这无疑会极大地影响性能。`net/http/pprof提供了一个方法，不使用时不会造成任何影响`，遇到问题时可以开启 profiling 帮助我们排查问题。我们只需要使用import这个包，然后在一个新的 goroutine 中调用http.ListenAndServe()在某个端口启动一个默认的 HTTP 服务器即可
 - [你的 pprof 暴露了](https://lightfish.cn/2018-03-25-translate-your-pprof-is-showing)
     - 安全问题 :显示函数名与文件路径:可能揭示商业敏感信息,分析会降低性能，为 DoS 攻击增加助攻
     - 预防 ：需要安排两台HTTP服务器 pprof服务监听本地6060端口并且限于本地访问
@@ -55,6 +55,14 @@ http://127.0.0.1:6060/debug/pprof/
 - [Continuous Profiling of Go programs](https://medium.com/google-cloud/continuous-profiling-of-go-programs-96d4416af77b)
     - 但這篇文章他講的是Google Cloud Profiler的產品 https://cloud.google.com/profiler/ ＠＠
 
+
+- 問題：[[Day 17] Oops！Golang - 讓我們來抓出吃資源的兇手！
+](https://ithelp.ithome.com.tw/articles/10235172#response-317837)
+net/http/pprof只能再遇到問題時去下，才能抓到問題
+回覆：
+如果你有使用GCP他們有幫你搜集起來，可以找到特定區間的資料，蠻方便的。
+可以參考此篇
+[Quickstart: Exploring Profiler ](https://cloud.google.com/profiler/docs/quickstart)
 
 ---------------------------
 

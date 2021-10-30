@@ -18,3 +18,7 @@ sidebar_position: 1
 ### 參考文章
 1. [畫素與解析度是什麼](https://www.stockfeel.com.tw/%E7%95%AB%E7%B4%A0%E8%88%87%E8%A7%A3%E6%9E%90%E5%BA%A6%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F/)
 2. [什麼是像素？解析度？一次搞懂，數位影像名詞剖析與簡介](https://www.wonder-product.com/pages/digital-image)
+3. [請問照片多少dpi去哪裡看呢?](https://www.mobile01.com/topicdetail.php?f=256&t=1426908)
+- 洗五乘七 ( 5*7 ) 的話，以 300 dpi 來說，你最少需要有 1500*2100 的圖片大小
+4. [手機的畫質達到印刷標準了嗎？](https://www.jcolor.com.tw/blog_post/5b98931047dd7431103d3ecf)
+- 4×300=1200，只要圖片的短邊大於或等於1200個像素，就不會失真

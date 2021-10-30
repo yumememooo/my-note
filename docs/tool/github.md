@@ -23,9 +23,11 @@ For developers, if you are using a password to authenticate Git operations with 
 https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
 注意生成之後只會看到一次，之後都看不到了，要先記住．
 
+Settings->Developer settings->Personal access tokens
+
 1. 要先去ＭＡＣ的應用程式找到鑰匙圈,找github先刪除．
 https://stackoverflow.com/questions/68191392/password-authentication-is-temporarily-disabled-as-part-of-a-brownout-please-us
 2. 再推一次會問你密碼....這時竟然是要輸入token, 就傳上去了＝＝
 這時候鑰匙圈存取裡面存的會是token 不像之前是明碼．
 
-有裝
+=====================================

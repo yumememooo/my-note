@@ -4,9 +4,16 @@
         <title>YumeMemooo's Note Blog</title>
         <link>https://yumememooo.github.io/blog</link>
         <description>YumeMemooo's Note Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[demo me web]]></title>
+            <link>https://yumememooo.github.io/my-note/blog/demo</link>
+            <guid>demo</guid>
+            <pubDate>Sun, 03 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[新增一個網站，新增各種常見網站，做為練習與展示，名稱稱為demo me （展示我），紀錄各種前端學習之路上的點點滴滴．]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://yumememooo.github.io/my-note/blog/welcome</link>

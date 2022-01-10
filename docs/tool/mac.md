@@ -1,5 +1,8 @@
 
-
+---
+title: "[mac]紀錄"
+sidebar_position: 1
+---
 
 ## mac 
 長期使用win工作，切換為mac多有不便...，記錄對應win之使用筆記！！
